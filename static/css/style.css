@@ -1,8 +1,25 @@
- .center {
-   width:270px;
-   height:150px;
-   position:absolute;
-   left:50%;
-   top:50%;
-   margin:-75px 0 0 -135px;
+body {
+    background: #00A19A;
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-align: center;
+}
+
+.center {
+   margin-left:20%;
+   margin-right:20%;
+   margin-top: 10%;`
  }
+
+ #home {
+     background: #04BF9D;
+ }
+
+ #about {
+     background: #F2E85C;
+ }
+
+ #code {
+     background: #F53D54;
+ }
+
+ /* https://kuler.adobe.com/#themeID/2362707 */
