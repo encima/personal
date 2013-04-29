@@ -2,12 +2,17 @@ body {
     background: #00A19A;
     font-family: 'PT Sans Narrow', sans-serif;
     text-align: center;
+    color: #404040;
 }
 
 .center {
    margin-left:20%;
    margin-right:20%;
    margin-top: 10%;`
+ }
+
+ .page {
+  min-height: 50px;
  }
 
  #home {
@@ -21,5 +26,12 @@ body {
  #code {
      background: #F53D54;
  }
+
+/*Mobile Responsive Goodness*/
+ @media screen and (max-width: 480px) {
+ .center {
+  margin: 0%;
+ }
+}
 
  /* https://kuler.adobe.com/#themeID/2362707 */
