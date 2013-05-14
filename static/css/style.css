@@ -8,7 +8,7 @@ body {
 .center {
    margin-left:20%;
    margin-right:20%;
-   margin-top: 10%;`
+   /*margin-top: 10%;`*/
  }
 
  .page {
@@ -19,7 +19,7 @@ body {
      background: #04BF9D;
  }
 
- #about {
+ #research {
      background: #F2E85C;
  }
 
