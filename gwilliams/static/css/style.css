@@ -1,0 +1,60 @@
+/*Default and Reset*/
+body, html {
+	margin: 0 auto;
+	height: 100%;
+	width: 100%;
+	background-color: #F3F0F4;
+	font-family: 'Cuprum', sans-serif;
+	color: #908BA8;
+}
+
+/*Elements*/
+li {
+	list-style-type: none;
+}
+
+h2 {
+	margin-top: 0px;
+	/*margin-right: 10px;*/
+}
+
+/*Classes*/
+
+.content {
+	float:none;
+	padding-left: 10%;
+	padding-top: 2%;
+	width: 60%;
+}
+
+.left-nav {
+	float: left;
+	width: 5%;
+	background-color: #1B1F28;
+	height: 100%;
+	overflow: hidden;
+}
+
+.right-nav {
+	float: right;
+	width: 5%;
+}
+
+.social {
+	width: 60px;
+	opacity: 0.4;
+}
+
+.social:hover{
+	opacity: 0.9;
+	width: 80px;
+}
+
+.img-text h2{
+	float:right;
+}
+
+.img-text img{
+	left: 0;
+	top: 0;
+}

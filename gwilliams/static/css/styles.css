@@ -1,0 +1,38 @@
+body {
+	margin: 0 auto;
+	height: 100%;
+	width: 100%;
+	background-color: #F3F0F4;
+	font-family: 'Cuprum', sans-serif;
+	color: #908BA8;
+}
+
+
+/*Classes*/
+.left-nav { 
+	width:5%;
+	background-color: #1B1F28;
+	height: 100%;
+	overflow: hidden;
+}
+
+.left-nav, .content {
+ 	float:left;
+}
+
+.content {
+	width: 90%;
+	height: 100%;
+}
+
+.right-nav {
+	float:right; 
+	width: 5%; 
+	height: 100%;
+	opacity: 0.4;
+}
+
+.right-nav:hover {
+	opacity: 1.0;
+}
+
