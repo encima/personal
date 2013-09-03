@@ -41,16 +41,16 @@ h2 {
 }
 
 .social {
-	width: 60px;
+	width: 80%;
 	opacity: 0.4;
 }
 
 .social:hover{
 	opacity: 0.9;
-	width: 80px;
+	width: 100%;
 }
 
-.img-text h2{
+.img-text h3{
 	float:right;
 }
 

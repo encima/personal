@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $('.img-text h2').hide();
+  $('.img-text h3').hide();
 });
 
 $(".left-nav").each(function() {
@@ -8,7 +8,7 @@ $(".left-nav").each(function() {
 
 $(".left-nav").hover(function() {
 	$(this).stop(true, false).animate({
-	    width: "15%"
+	    width: "20%"
 	}, 500, function() {
 		$('.img-text h3').show();
 	} );
